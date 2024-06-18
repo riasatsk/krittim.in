@@ -3,8 +3,7 @@
 	import { onMount } from 'svelte';
 
 	onMount(() => {
-		const theme = localStorage.getItem('theme') || 'cupcake';
-		document.documentElement.setAttribute('data-theme', theme);
+		document.documentElement.setAttribute('data-theme', 'light');
 	});
 </script>
 
