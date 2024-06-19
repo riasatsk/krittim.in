@@ -1,4 +1,4 @@
-<section class="bg-gray-100 h-96 flex items-center justify-center text-gray-900">
+<section class="bg-gray-100 h-96 flex items-center justify-center text-gray-900 m-5">
 	<div class="text-center max-w-lg mx-auto px-4 sm:px-6 md:px-8">
 		<h1 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 leading-tight">
 			Transform Your School Management Digitally
