@@ -1,24 +1,24 @@
 <script>
-  import Hero from "$lib/Hero.svelte";
-  import Features from "$lib/Features.svelte";
-	import Screenshot from "$lib/Screenshot.svelte";
-import Trial from '$lib/Trial.svelte'
-import Footer from "$lib/Footer.svelte"
+	import Hero from '$lib/Hero.svelte';
+	import Features from '$lib/Features.svelte';
+	import Screenshot from '$lib/Screenshot.svelte';
+	import Trial from '$lib/Trial.svelte';
+	import Footer from '$lib/Footer.svelte';
 </script>
+
 <div class="navbar bg-base-100">
 	<div class="navbar-start">
-		<a class="btn btn-ghost text-xl">Krittim</a>
+		<a class="btn btn-ghost text-xl" href="/">Krittim</a>
 	</div>
 	<div class="navbar-end">
-		<a class="btn btn-success">Download</a>
+		<a class="btn btn-success" href="/download">Download</a>
 	</div>
 </div>
 
+<Hero />
 
-<Hero/>
+<Features />
+<Screenshot />
+<Trial />
 
-<Features/>
-<Screenshot/>
-<Trial/>
-
-<Footer/>
+<Footer />
