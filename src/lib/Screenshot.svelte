@@ -22,7 +22,7 @@
       {/each}
     </div>
     <div class="text-center mt-12">
-      <a href="screenshots" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded-full shadow-lg transition duration-300">
+      <a href="/screenshot" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded-full shadow-lg transition duration-300">
         More Screenshots
       </a>
     </div>
