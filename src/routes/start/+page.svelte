@@ -1,3 +1,7 @@
+<script>
+	import { goto } from '$app/navigation';
+</script>
+
 <div class="navbar bg-base-100">
 	<div class="flex-1">
 		<a class="btn btn-ghost text-xl" href="/">Krittim</a>
@@ -53,5 +57,5 @@
 		>
 		<div class="font-bold text-xl">Email: krittim@outlook.com</div>
 	</div>
-	<a class="btn btn-success" href="tel:8016676880">Call Now</a>
+	<button class="btn btn-success" on:click={() => goto('tel:8016676880')}>Contact</button>
 </main>
