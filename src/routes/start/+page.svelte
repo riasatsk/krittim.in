@@ -57,5 +57,5 @@
 		>
 		<div class="font-bold text-xl">Email: krittim@outlook.com</div>
 	</div>
-	<button class="btn btn-success" on:click={() => goto('tel:8016676880')}>Contact</button>
+	<a class="btn btn-success" href="tel:8016676880">Call Now</a>
 </main>
