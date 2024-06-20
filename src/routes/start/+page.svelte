@@ -21,6 +21,7 @@
 </div>
 
 <main class="flex flex-col gap-3 justify-center items-center mt-5">
+	<div class="font-bold text-2xl mb-5">Contact Us</div>
 	<div class="flex items-center gap-3">
 		<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
 			><path
@@ -52,5 +53,5 @@
 		>
 		<div class="font-bold text-xl">Email: krittim@outlook.com</div>
 	</div>
-    <button class="btn btn-success">Contact</button>
+	<a class="btn btn-success" href="tel:8016676880">Call Now</a>
 </main>
