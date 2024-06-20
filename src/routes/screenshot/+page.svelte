@@ -4,11 +4,11 @@
 	// Define an array of screenshot image URLs
 	const screenshots = [
 		'/home.png',
-        '/class.png',
+		'/class.png',
 		'/student.png',
 		'/add-student.png',
 		'/fees.png',
-        '/add-fees.png',
+		'/add-fees.png',
 		'/exam.png',
 		'/marksheet.png',
 		'/marksheet-example.png',
@@ -17,7 +17,7 @@
 		'/update.png',
 		'/theme.png',
 		'/edit-mark.png',
-        '/list.png'
+		'/list.png'
 
 		// Add more screenshot images as needed
 	];
@@ -49,11 +49,45 @@
 	<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 m-5">
 		{#each screenshots as screenshot}
 			<div class="overflow-hidden bg-white rounded-lg shadow-md">
-				<img src={screenshot} alt="Screenshot" class="w-full h-auto" />
+				<img
+					src={screenshot}
+					alt="Screenshot"
+					class="w-full h-auto"
+					on:click={() => {
+						const modal = document.getElementById('modal');
+						modal.show();
+					}}
+				/>
 			</div>
 		{/each}
 	</div>
 </div>
+
+<!-- You can open the modal using ID.showModal() method -->
+
+<dialog id="modal" class="modal">
+	<div class="modal-box w-11/12 max-w-5xl">
+		<div class="carousel w-full">
+			{#each screenshots as screenshot, i}
+				<div id="slide{i}" class="carousel-item relative w-full">
+					<img src={screenshot} alt="screenshot" class="w-full" />
+					<div
+						class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+					>
+						<a href="#slide{i}" class="btn btn-circle">❮</a>
+						<a href="#slide{i + 1}" class="btn btn-circle">❯</a>
+					</div>
+				</div>
+			{/each}
+		</div>
+		<div class="modal-action">
+			<form method="dialog">
+				<!-- if there is a button, it will close the modal -->
+				<button class="btn">Close</button>
+			</form>
+		</div>
+	</div>
+</dialog>
 
 <style>
 	/* Optional: You can add custom styling here */
