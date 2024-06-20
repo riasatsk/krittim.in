@@ -48,3 +48,7 @@
 		</div>
 	</div>
 </section>
+
+<svelte:head>
+	<title>Download - Krittim School</title>
+</svelte:head>

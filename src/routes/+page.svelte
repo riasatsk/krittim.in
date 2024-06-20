@@ -22,3 +22,8 @@
 <Trial />
 
 <Footer />
+
+
+<svelte:head>
+	<title>Krittim Home Page</title>
+</svelte:head>
