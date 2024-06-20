@@ -53,5 +53,5 @@
 		>
 		<div class="font-bold text-xl">Email: krittim@outlook.com</div>
 	</div>
-	<!-- <a class="btn btn-success" href="tel:8016676880">Call Now</a> -->
+	<a class="btn btn-success" href="tel:8016676880">Call Now</a>
 </main>
