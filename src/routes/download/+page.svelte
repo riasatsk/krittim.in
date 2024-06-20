@@ -38,7 +38,7 @@
 					<h3 class="text-xl font-semibold mb-2">Windows 10/11</h3>
 					<p class="text-gray-700 mb-4">Download for Windows PCs</p>
 					<a
-						href="https://github.com/riasatsk/krittim.in/releases/download/download/Krittim.School_0.1.0_x64_en-US.msi"
+						href="https://github.com/riasatsk/krittim.in/releases/download/download/Krittim.School_0.1.0_x64_en-US.zip"
 						class="btn btn-success"
 					>
 						Download
