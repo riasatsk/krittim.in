@@ -16,7 +16,8 @@
 </div>
 
 <Hero />
-<iframe
+<div class="flex justify-center items-center m-5">
+	<iframe
 	width="560"
 	height="315"
 	src="https://www.youtube.com/embed/2jKCUWL8F8Q?si=jn6lzVwe0x6IZi3u"
@@ -26,6 +27,7 @@
 	referrerpolicy="strict-origin-when-cross-origin"
 	allowfullscreen
 ></iframe>
+</div>
 <Features />
 <Screenshot />
 <Trial />
